@@ -13,3 +13,13 @@ server.listen(port, hostname, () => {
   console.log(`server in running: http://${hostname}:${port}/`);
 
 });
+
+
+// const { createServer } = require("http");
+
+// const server = createServer((req, res) => {
+//   res.write("Hello World");
+//   res.end();
+// });
+
+// server.listen(3000);
