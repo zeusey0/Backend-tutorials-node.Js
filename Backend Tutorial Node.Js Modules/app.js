@@ -16,7 +16,7 @@ server.listen(port, hostname, () => {
 
 
 let text = fs.readFileSync("test.txt", "utf-8");
-text = text.replace("Node", "Java")
+text = text.replace("Node", "Java");
 fs.writeFileSync("style.txt", text); 
 
  
